@@ -1,0 +1,106 @@
+// COPYRIGHT 2014 POUYA KARY
+// KARY KNIGHT MOVE OPTIMIZER VERSION 1
+// FOR CALCULATING THE MINIMUM  MOVE
+// REQUIERD BY ONE CHESS KNIGHT TO MOVE
+// FROM BUTTOM LEFT OF A BOARD IN SIZE
+// OF N TO THE TOP RIGHT.
+
+
+   ////////////////////////////////
+   /// BUILDING THE CHESS BOARD ///
+   ////////////////////////////////
+
+// title
+   'Kary Knight\'s Move Optimizer'
+
+// first spcaings
+   ( xspacings , 4 )
+   ( yspacings , @xspacings / 2 )
+
+   [ @xspacings , r ] [ @yspacings , d ]
+
+
+// The first color should not contain
+// the 100% capacity.
+   n
+
+// How much is our bord? ( @long X @long )
+   ( long , "Please enter the size of your board:" )
+ 
+   ( line , 0 )
+   [@long,
+      i [ @xspacings , r ] [ @yspacings , d ]
+      [ @line , d ]
+      [ @long , prpr nn ]
+      ( line , +1 )
+
+      { @long % 2 = 0 , nn }
+   ]
+
+// Now we have to get to the buttom left
+// of our board.
+   i [ @xspacings , r ]
+   [ @yspacings + @long - 1  , d ]
+   { @long % 2 = 0 , nnn , n } 
+   prp
+
+   //////////////////////////////
+   /// RUNNING THE ALGORITHEM ///
+   //////////////////////////////
+
+// Now we have to see what is the remaining
+// of the @long to 3
+
+   { @long%3=0,
+   // W0 ///////////////////////////////////
+   'Knight W0'
+
+      // M1
+      [ Floor((@long-5)/3) ,
+
+          [ 2 , u ] [ 2 , rp ]
+          u [ 2 , r ] [ 2 , rp ]
+
+      ]
+
+      // M4
+      [ 2 , [ 2 , u ] [ 2 , rp ] ]
+
+      // M5
+      [  3 , r ] d prp uu [ 2 , rp ]      
+
+
+   ,{@long%3=1,
+   // W1 ///////////////////////////////////
+   'Knight W1'
+
+      // M1
+      [ Floor((@long)/3) ,
+
+          [ 2 , u ] [ 2 , rp ]
+          u [ 2 , r ] [ 2 , rp ]
+
+      ]
+
+
+   ,
+   // W2 ///////////////////////////////////
+   'Knight W2'
+
+      // M1
+      [ Floor((@long-5)/3) ,
+
+          [ 2 , u ] [ 2 , rp ]
+          u [ 2 , r ] [ 2 , rp ]
+
+      ]
+
+      // M4
+      [ 2 , [ 2 , u ] [ 2 , rp ] ]
+      
+      // M3
+      [ 2 , d ] [ 2 , rp ] [ 2 , u ] [ 2 , rp ] 
+
+   }}
+
+// done
