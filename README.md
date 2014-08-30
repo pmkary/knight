@@ -10,7 +10,9 @@ To run the software:
 * Download the repo and put files where you like.
 * Run main.arendelle from 'White Screen Functioned'
 * If you're using UNIX you can open the knight.c and then change the command to your file then compile it using gcc -o knight ./knight.c and then move the knight to /usr/bin
-###License:
+
+
+### License
 Knight,Chess knight's path optimizer for dynamic sized chess boards
 Copyright (C) 2014 Pouya Mohammad Kary.<br/>
 
