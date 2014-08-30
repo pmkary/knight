@@ -1,0 +1,22 @@
+//
+// Copyright 2014 Pouya Kary
+// version 2
+//
+
+// doing so for ever!
+   [ 1=1 ,
+   
+      // title
+      'Kary Knight\'s Move Optimizer'
+
+      // How much is our bord? ( @long X @long )
+      ( long , "Please enter the size of your board:" )
+      
+      { @long > 3 ,
+         ? knight ( @long )
+         s
+      }
+   
+   ]
+   
+// done
