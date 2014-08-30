@@ -13,6 +13,7 @@ To run the software:
 
 
 ### License
+`
 Knight,Chess knight's path optimizer for dynamic sized chess boards
 Copyright (C) 2014 Pouya Mohammad Kary.<br/>
 
@@ -27,4 +28,4 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.<br/>
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program.  If not, see <http://www.gnu.org/licenses/>.`
