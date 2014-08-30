@@ -1,4 +1,4 @@
-![ScreenShot](https://raw.githubusercontent.com/pmkary/knight/master/ChessBoardInsizeOf12800Pixel.png)
+![ScreenShot](https://raw.githubusercontent.com/pmkary/knight/master/ChessBoardInsizeOf12300Pixel.png)
 
 knight
 ======
