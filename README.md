@@ -3,7 +3,7 @@
 Chess Knight's Path Optimizer
 =============================
 ### Intro
-A software that renders you the optimized path for a Chess Knight to move from bottom left of a chess board in size of n to the top right size of it written in Arendelle with an UNIX launcher written in C based on [Pouya Kary's Chess Knight Path Optimization Algorithm](http://kary.us/chessknight)
+A software that renders you the optimized path for a Chess Knight to move from bottom left of a chess board in size of n to the top right size of it written in Arendelle with an UNIX launcher written in C based on [Pouya Kary's Chess Knight Path Optimization Algorithm](http://kary.us/projects/knight/)
 ### Setup
 To run the software:
 * Download and Install [Arcade IDE](http://developer.arendelle.org/technologies/arcade)
